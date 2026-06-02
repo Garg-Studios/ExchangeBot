@@ -174,7 +174,7 @@ client.on('interactionCreate', async function(interaction) {
         console.log("Help command used");
         interaction.editReply("Please email us at " + contactinfo+"\nOur Website: " + website); // email
     }
-
+// hello
 
 
 
