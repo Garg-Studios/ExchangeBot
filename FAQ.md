@@ -1,0 +1,5 @@
+<h1>FAQ</h1>
+
+<h2>Question: Are there any built-in limitations or scale caps?</h2>
+
+<p><strong>Answer:</strong> Currently, this project relies on two free public APIs to check prices, meaning it may be slow and not able to handle multiple user queries at the same time. There is currently no DB hooked up to it or DoS protection. Currently we do not have a server host and Exchange Bot is not active. </p>
