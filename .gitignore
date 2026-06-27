@@ -12,3 +12,4 @@
 # You need to use your own ENV file
 /.env
 .idea/
+node_modules/
