@@ -262,6 +262,9 @@ client.on('interactionCreate', async function(interaction) {
     }
 });
 
-
-
-client.login(process.env.DISCORD_TOKEN);
+try {
+    client.login(process.env.DISCORD_TOKEN);
+}
+catch (error) {
+    console.error(error);
+}
