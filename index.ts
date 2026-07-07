@@ -262,6 +262,8 @@ client.on('interactionCreate', async function(interaction) {
     }
 });
 
+
+// Make sure you have a .env file and follow the guidelines in .env.example
 try {
     client.login(process.env.DISCORD_TOKEN);
 }
